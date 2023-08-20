@@ -1,3 +1,7 @@
+pip install sympy
+
+from sympy import prime
+
 # Definiendo una función para calcular los primeros 20 números del factor x que sean menores a -60%
 def get_filtered_table():
     positions = []

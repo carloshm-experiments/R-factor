@@ -34,4 +34,4 @@ filtered_table_5000 = get_filtered_table()
 filtered_table_5000_formatted = "\n".join([f"Posición: {row[0]}, Primo: {row[1]}, Módulo: {row[2]}, Factor x (%): {row[3]}" for row in filtered_table_5000])
 
 # Mostrando la tabla
-filtered_table_5000_formatted
+print(filtered_table_5000_formatted) 
